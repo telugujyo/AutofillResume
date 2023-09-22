@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #head{
+        background-color:skyblue
+        }
+        .education{background-color:lavender
+        }
+        
+        </style>
+    
+    <script>
+        function check(){
+            document.getElementById('f1').innerHTML=document.myform.name.value;
+            document.getElementById('f2').innerHTML=document.myform.lname.value;
+            document.getElementById('f3').innerHTML=document.myform.phn.value;
+            document.getElementById('f4').innerHTML=document.myform.email.value;
+            document.getElementById('f5').innerHTML=document.myform.addr.value;
+            document.getElementById('f6').innerHTML=document.myform.sname.value;
+            document.getElementById('f7').innerHTML=document.myform.sgrade.value;
+            document.getElementById('f8').innerHTML=document.myform.cname.value;
+            document.getElementById('f9').innerHTML=document.myform.cgrade.value;
+            document.getElementById('f10').innerHTML=document.myform.str.value;
+            document.getElementById('f11').innerHTML=document.myform.fatname.value;
+            document.getElementById('f12').innerHTML=document.myform.moname.value;
+            document.getElementById('f13').innerHTML=document.myform.nation.value;
+            document.getElementById('f14').innerHTML=document.myform.dec.value;
+            document.getElementById('f15').innerHTML=document.myform.scourse.value;
+            document.getElementById('f16').innerHTML=document.myform.sstate.value;
+            document.getElementById('f17').innerHTML=document.myform.syr.value;
+            document.getElementById('f18').innerHTML=document.myform.ccourse.value;
+            document.getElementById('f19').innerHTML=document.myform.cstate.value;
+            document.getElementById('f20').innerHTML=document.myform.cyr.value;
+            document.getElementById('f21').innerHTML=document.myform.carrer.value;
+            document.getElementById('f22').innerHTML=document.myform.place.value;
+            document.getElementById('f23').innerHTML=document.myform.date.value;
+
+
+
+
+
+        }
+    </script>
+</head>
+<body>
+    <form name='myform'>
+<p>First Name
+<input type='text' name='name' value=''>
+<p>Last Name
+    <input type='text' name='lname' value=''>
+    </p>
+    <p>PHone Number
+        <input type='number' name='phn' value=''>
+        </p>
+        <p>Email
+            <input type='text' name='email' value=''>
+            </p>
+            <p>Address
+                <input type='text' name="addr" value=''>
+            </p>
+            <p><h4>Qualification</h4></p>
+<p>School Name
+    <input type="text" name="sname" value="">
+</p>
+<p>school course
+    <input type="text" name="scourse" value="">
+</p>
+<p>schooling state
+    <input type="text" name="sstate" value="">
+</p>
+<p> schooling year
+    <input type="text" name="syr" value="">
+</p>
+<p>Grades
+    <input type="number" name="sgrade" value="">
+</p>
+<p>College Name
+    <input type="text" name="cname" value="">
+</p>
+<p>College Course
+    <input type="text" name="ccourse" value="">
+</p>
+<p>College state
+    <input type="text" name="cstate" value="">
+</p>
+<p>College year
+    <input type="text" name="cyr" value="">
+</p>
+<p>Grades
+    <input type="number" name="cgrade" value="">
+</p>
+<p><h4>Strengths</h4></p>
+<p>Strengths
+    <input type="text" name="str" value="">
+</p>
+<p><h4>Carrier Objective</h4></p>
+<p>carrier objective
+    <input type="text" name="carrer" value="">
+</p>
+<p><h4>Personal Details</h4></p>
+<p>Father Name
+    <input type="text" name="fatname" value="">
+</p>
+<p>Mother Name
+    <input type="text" name="moname" value="">
+</p>
+<p>Nationality
+    <input type="text" name="nation" value="">
+</p>
+<p><h4>Declaration</h4></p>
+<p>Declaration
+    <input type="text" name="dec" value="">
+</p>
+<p>Place
+    <input type="text" name="place" value="">
+</p>
+<p>Date
+    <input type="text" name="date" value="">
+</p>
+
+
+<p><input type='submit' onclick='check(); return false'>
+</p>
+</p>
+   </form>   
+   
+    <p id='f2'></p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    <center>
+        <button type="button" onclick="document.getElementById('resume').style.display='block'">show</button>
+        <button type="button" onclick="document.getElementById('resume').style.display='none'">hide</button>
+        </center>
+             
+
+<div class="container" id="resume">
+    <center>
+        <h1 id="head">My Resume</h1>
+        </center>
+        <img src="C:\Users\91939\Desktop\charlie.jpg" height=10% align="right">
+        <div class="pd">
+         <h1><p id='f1'></p> </h1>
+        <p><p id="f5"></p>|<p id="f4"></p>|<p id="f3"></p></p>
+        </div>
+        <hr>
+        <div class="obj">
+        <h2>
+        <u >CARRIER OBJECTIVE </u>
+        </h2>
+        <p><p id="f21"></p></p>
+        </div>
+        <hr width="px">
+        <div class="education">
+        <h2><u>ACADEMIC QUALIFICATION </u>
+        </h2>
+        <table border=5 width=1000>
+        <tr>
+        <th>QUALIFICATION </th>
+        <th>BOARD /UNIVERSITY </th>
+        <th>SCHOOL /COLLEGE </th>
+        <th>YEAR OF PASSING </th>
+        <th>MARKS</th>
+        </tr>
+        <tr>
+        <td><p id="f15"></p></td>
+        <td><p id="f16"></p></td>
+        <td><p id="f6"></p> </td>
+        <td><p id="f17"></p></td>
+        <td><p id="f7"></p></td>
+        </tr>
+        <tr>
+        <td><p id="f18"></p></td>
+        <td><p id="f19"></p></td>
+        <td><p id="f8"></p> </td>
+        <td><p id="f20"></p></td>
+        <td><p id="f9"></p></td>
+        </tr>
+        
+        
+        </table>
+        </div>
+        <hr>
+        <div class="skills">
+        <h2><u>STRENGTH </u></h2>
+        <ul>
+        <li><p id="f10"></p> </li>
+        </ul>
+        </div>
+        <hr>
+        <div class="personal">
+        <h2><u>PERSONAL DETAILS </u>
+        </h2>
+        <ul>
+        <li>father's name:<p id="f11"></p></li>
+        <li>mother's name:<p id="f12"></p></li>
+        <li>nationality :<p id="f13"></p></li>
+        </ul>
+        </div>
+        <hr>
+        <div class="declaration ">
+        <h2>Declaration </h2>
+        <p><p id="f14"></p></p>
+        <p>Place: <p id="f22"></p> </p>
+        <p>Date:<p id="f23"></p></p>
+   </div>
+</body>
+</html>
+
